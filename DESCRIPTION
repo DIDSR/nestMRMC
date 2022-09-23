@@ -1,0 +1,22 @@
+Package: NestMRMC
+Title: Single Reader Between-Cases AUC Estimator with Nested Data
+Version: 1.0
+Authors@R: 
+    person(given = "Hongfei",
+           family = "Du",
+           role = c("aut", "cre"),
+           email = "hongfei@gwmail.gwu.edu",
+           comment = c(ORCID = "0000-0002-0633-594X"))
+Description: This repository provide the R package for the methods in paper: Single Reader Between-Cases AUC Estimator with Nested Data. Statistical Methods in Medical Research. https://doi.org/10.1177/09622802221111539.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports: 
+    magrittr,
+    dplyr,
+    mvtnorm,
+    iMRMC,
+    Rcpp
+LinkingTo: Rcpp
